@@ -1,0 +1,9 @@
+<p:decorate with="body">
+	<div id="body-content">
+		<h1 class="page-title">#{@title}</h1>
+
+		<p:alerts />
+
+		#{component=}
+	</div>
+</p:decorate>

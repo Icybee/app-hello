@@ -1,0 +1,6 @@
+cache
+files
+files-index
+thumbnailer
+tmp
+var/cached_*

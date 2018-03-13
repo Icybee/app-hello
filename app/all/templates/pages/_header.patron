@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="collapse navbar-collapse">
+	<ul class="navbar-nav mr-auto">
+		<p:navigation depth="1">
+			<p:foreach>
+			<li class="nav-item #{@css_class('active trail id')}">
+				<a class="nav-link" href="#{@url}">#{@label}</a>
+			</li>
+			</p:foreach>
+		</p:navigation>
+	</ul>
+	</div>
+</nav>

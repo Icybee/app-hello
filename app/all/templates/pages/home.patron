@@ -1,0 +1,6 @@
+<p:decorate with="page">
+<p:page:content id="body" title="Document body" />
+<p:page:content id="picture" title="A picture" editor="image">
+	#{@thumbnail('300x300/adjust?b=silver')=}
+</p:page:content>
+</p:decorate>

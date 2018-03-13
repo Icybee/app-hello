@@ -1,0 +1,3 @@
+<p:decorate with="page">
+<p:page:content id="body" title="Document body" />
+</p:decorate>

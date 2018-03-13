@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="#{@language}">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<p:document:title />
+
+<p:document:css href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+<p:document:css href="vendor/brickrouge/brickrouge/assets/brickrouge.css" />
+<p:document:css href="/assets/page.css" />
+<p:document:css />
+</head>
+
+<body class="#{document.css_class}">
+
+<p:call-template name="header" />
+
+<div class="container">
+#{component=}
+</div>
+
+<p:document:js href="vendor/brickrouge/brickrouge/assets/brickrouge.js" />
+<p:document:js href="vendor/icybee/icybee/assets/admin/img-dpr.js" />
+<p:document:js />
+
+</body>
+</html>

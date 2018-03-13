@@ -1,0 +1,36 @@
+{
+	"name": "icybee/app-hello",
+	"type": "project",
+	"description": "Starter project for your website powered with Icybee",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Olivier Laviale",
+			"email": "olivier.laviale@gmail.com",
+			"homepage": "https://olvlvl.com/",
+			"role" : "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/Icybee/app-hello/issues",
+		"source": "https://github.com/Icybee/app-hello"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"prefer-dist": true,
+	"require": {
+		"php": ">=5.6.0",
+		"icybee/icybee": "^4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "lib"
+		},
+		"classmap": [
+			"Application.php"
+		]
+	},
+	"scripts": {
+		"post-autoload-dump": "ICanBoogie\\Autoconfig\\Hooks::on_autoload_dump"
+	}
+}
